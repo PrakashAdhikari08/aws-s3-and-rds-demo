@@ -1,0 +1,12 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    url: jdbc:mysql://myfirstdb.cafgr1czxqoo.ap-southeast-2.rds.amazonaws.com:3306/firstdb?createDatabaseIfNotExist=true
+    username: root
+    password: root1234
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: create-drop
